@@ -27,7 +27,7 @@ function App() {
                     <input
                         id="numero"
                         type="text"
-                        value={concursantes || null}
+                        value={concursantes || null || undefined}
                         onChange={({ target }) =>
                             setConcursantes(Number(target.value))
                         }
