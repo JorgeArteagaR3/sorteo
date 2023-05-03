@@ -46,7 +46,7 @@ button {
     background-color: #1a1a1a;
     cursor: pointer;
     transition: border-color 0.25s;
-    font-size: 5rem;
+    font-size: 2rem;
 }
 button:hover {
     border-color: #646cff;
@@ -58,13 +58,17 @@ button:focus-visible {
 input {
     text-align: center;
     font-size: 1.6rem;
+    width: 100%;
 }
 .form {
-    margin-bottom: 40px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 10px;
     align-items: center;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 @media (prefers-color-scheme: light) {
@@ -78,4 +82,11 @@ input {
     button {
         background-color: #f9f9f9;
     }
+}
+
+.myapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
